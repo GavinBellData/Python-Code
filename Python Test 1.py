@@ -4,7 +4,12 @@ import requests
 from datetime import datetime
 from bs4 import BeautifulSoup
 
-Make = "Tesla"
+Manufacturer = ["Acura","Alfa-Romeo","Aston-Martin","Audi","Bentley","BMW","Buick","Cadillac","Chevrolet","Chrysler","Dodge","Ferrari","Fiat","Ford","Genesis","GMC","Honda","Hyundai","Infiniti","Jaguar","Jeep","Kia","Lamborghini","Land-Rover","Lexus","Lincoln","Lotus","Lucid","Maserati","Mazda","McLaren","Mercedes-Benz","Mini","Mitsubishi","Nissan","Polestar","Porsche","Ram","Rivian","Rolls-Royce","Subaru","Tesla","Toyota","VinFast","Volkswagen","Volvo"]
+End_List = []
+
+print(Manufacturer)
+
+Make = "Volvo"
 
 # Test access to the Edmunds website
 url = 'https://www.edmunds.com//'
